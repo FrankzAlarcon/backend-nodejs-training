@@ -1,8 +1,8 @@
 FROM node:14
 
-COPY [".","/usr/src/"]
+COPY [".", "/usr/src/"]
 
-WORKDIR /usr/src
+WORKDIR /usr/src/
 
 RUN rm -rf node_modules
 
